@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+  font-family: "Manrope", sans-serif;
+
+}
+
+.container{
+    width: 100%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    /* background :rgba(0 ,0 ,0 ,0) ;
+backdrop-filter:blur(5px); */
+}
+.navbar{
+    text-align: center;
+}
+#check{
+    display: none;
+}
+
+
+.menus{
+    position: absolute;
+    right: 5%;
+    display: none;
+    cursor: pointer;
+}
+.logo{
+  height: 90px;
+  width: 100px;
+}
+.list-item{
+    display: inline;
+    margin: 0px 20px 0px 20px;
+    color: rgb(233, 175, 105);
+    font-size: 20px;
+    cursor: pointer;
+
+}
+p{
+    text-align: center;
+}
+.hero{
+    /* margin-top: 60px; */
+    width: 100%;
+    background-image: url(https://static.onecms.io/wp-content/uploads/sites/19/2018/02/13/pastries-hero-2000.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-btn{
+    margin: 20px 20px;
+    width: 120px;
+    height: 40px;
+    color: brown;
+    background-color: bisque;
+    border: none;
+    border-radius: 50px;
+    font-size: large;
+}
+.hero-head{
+    color:brown;
+    font-family: "Alex Brush", cursive;
+        font-size: 100px;
+}
+
+.food-cards{
+    width: 100%;
+    margin: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.food-cards p{
+    font-size: large;
+}
+.card{
+    text-align: center;
+    width: 450px;
+    height: 470px;
+    line-height: 1.5;
+    margin: 0px 10px;
+}
+.card>img{
+    width: 100%;
+}
+.read-more1{
+    margin-top: 20px;
+    font-size: 20px;
+    background:none;
+    border: none;
+    text-decoration: underline;
+}
+.hero-2{
+    
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/hero1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+
+.hd{
+    font-size: 60px;
+}
+.hero-2>p{
+    margin: 20px 0px 20px 0px;
+    line-height: 2;
+    color: rgb(0, 0, 0);
+}
+.grid{
+    width: 100%;
+    margin: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.grid-content{
+    width: 95%;
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.grid-head{
+    text-align: center;
+    margin-bottom: 100px;
+    width: 75%;
+}
+.grid-head h2{
+     font-family: "Alex Brush", cursive;
+    color: rgb(233, 175, 105);
+    font-size: 35px;
+}
+.grid-head h1{
+    font-size: 45px;
+}
+.grid-head p{
+font-size: large;}
+h1{
+    color: brown;
+}
+.grid-card{
+    text-align: center;
+    width: 300px;
+    height:450px;
+    /* border: solid; */
+    margin: 10px 0px;
+}
+.grid-card>img{
+    width: 100%;
+    height: 60%;
+}
+.grid-card p{
+    font-size: large;
+}
+h3{
+    color: brown;
+}
+.price{
+    color: brown;
+    font-weight: 600;
+
+}
+.d1{
+    margin-top: -40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.d1>img{
+    width: 50%;
+}
+.d2{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.d2 h1{
+    font-size: 40px;
+}
+.d2 p{
+    font-size: larger;
+}
+footer{
+    padding: 20px 0px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-size: large;
+    color: brown;
+
+}
+.icons{
+    margin-left:20px;
+}
+.read-more2{
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    color: brown;
+    background-color: bisque;
+    border: none;
+    border-radius: 50px;
+    font-size: large;
+}
+
+@media (max-width:600px){
+    .hero-2{
+        height: 350px;
+        font-size: 15px;
+
+    }
+  .d1 h1{
+    font-size:30px;
+   }
+
+}
+
+@media (max-width:632px)
+{
+  
+    .grid-card {
+        margin: 5px 5px;
+        width: 200px;
+        height: 250px;
+    }
+}
+
+@media (max-width:500px){
+    .hero-head{
+        font-size: 90px;
+        text-align: center;
+    }
+}
+@media (max-width:768px){
+   
+    .navbar{
+        position: absolute;
+        top: 100%;
+        background-color: bisque;
+        width: 40%;
+        left: 60%;
+        display: none;
+    }
+    .navbar li{
+        display: block;
+        margin: 20px 0px;
+        text-align: center;
+    }
+    .menus{
+        display: flex;
+    }
+    #cancel{
+        display: none;
+    }
+    #check:checked~.menus #menu{
+        display: none;
+    }
+    #check:checked~.menus #cancel{
+        display: block;
+    }
+    #check:checked~.navbar{
+        display: block;
+        height: 190px;
+    }
+    .d1{
+        flex-direction: column;
+        
+    }
+    .d1>img{
+        width: 90%;
+    }
+    .d2{
+        width: 95%;
+        text-align: justify;
+    }
+}
